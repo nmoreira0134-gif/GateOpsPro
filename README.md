@@ -32,6 +32,7 @@ El proyecto opera bajo una arquitectura Serverless utilizando el ecosistema de G
 ### 3. Gestión de Combustible y Rendimiento (KPIs)
 - **Cálculo de Rendimiento Real:** Implementa una lógica de "Tanque Lleno a Tanque Lleno" (Full-to-Full), acumulando litros parciales para calcular el rendimiento exacto en `km/L`.
 - **Alertas de Anomalía:** Si el rendimiento del vehículo cae por debajo del umbral configurado (ej. 8 km/L), el sistema dispara una alerta por correo para auditar posible robo de combustible o fallas mecánicas.
+  <img width="1567" height="887" alt="foto3" src="https://github.com/user-attachments/assets/ec115a13-96ab-4533-96a5-43dca1bcb39c" />
 
 ### 4. Auditoría y Mantenimiento de Base de Datos
 - **Archivado Automático:** Para evitar el colapso de Google Sheets, el sistema monitorea el tamaño de las hojas. Al superar los 10,000 registros, mueve automáticamente los datos más antiguos (protegiendo los últimos 3 meses) a un archivo de respaldo en Google Drive.
@@ -44,7 +45,6 @@ El Backend de GateOpsPro exporta los datos limpios y estructurados para ser cons
 - Historial de mantenimientos (Preventivos vs. Correctivos).
 
 <img width="1902" height="805" alt="foto4" src="https://github.com/user-attachments/assets/342d4e9b-e460-4ff6-b6d3-e0f993bde56f" />
-<img width="1567" height="887" alt="foto3" src="https://github.com/user-attachments/assets/ec115a13-96ab-4533-96a5-43dca1bcb39c" />
 <img width="1252" height="855" alt="foto2" src="https://github.com/user-attachments/assets/2df09868-2910-4a2b-98c9-146ed3631443" />
 
 
