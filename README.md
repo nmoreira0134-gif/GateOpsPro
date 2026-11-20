@@ -32,7 +32,8 @@ El proyecto opera bajo una arquitectura Serverless utilizando el ecosistema de G
 ### 3. Gestión de Combustible y Rendimiento (KPIs)
 - **Cálculo de Rendimiento Real:** Implementa una lógica de "Tanque Lleno a Tanque Lleno" (Full-to-Full), acumulando litros parciales para calcular el rendimiento exacto en `km/L`.
 - **Alertas de Anomalía:** Si el rendimiento del vehículo cae por debajo del umbral configurado (ej. 8 km/L), el sistema dispara una alerta por correo para auditar posible robo de combustible o fallas mecánicas.
-  <img width="1567" height="887" alt="foto3" src="https://github.com/user-attachments/assets/ec115a13-96ab-4533-96a5-43dca1bcb39c" />
+  
+- <img width="1567" height="887" alt="foto3" src="https://github.com/user-attachments/assets/ec115a13-96ab-4533-96a5-43dca1bcb39c" />
 
 ### 4. Auditoría y Mantenimiento de Base de Datos
 - **Archivado Automático:** Para evitar el colapso de Google Sheets, el sistema monitorea el tamaño de las hojas. Al superar los 10,000 registros, mueve automáticamente los datos más antiguos (protegiendo los últimos 3 meses) a un archivo de respaldo en Google Drive.
