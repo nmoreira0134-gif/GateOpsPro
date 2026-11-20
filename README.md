@@ -9,6 +9,7 @@
 **GateOpsPro** es una solución integral desarrollada en Google Apps Script (V8) diseñada para la gestión, control y auditoría de flotas vehiculares en entornos de alta exigencia operativa (Sector Industrial/Seguridad). 
 
 El sistema funciona como una Single Page Application (SPA) que se conecta a Google Sheets como base de datos, automatizando procesos críticos como el control de kilometraje, la generación de tickets de mantenimiento preventivo/correctivo, el cálculo de rendimiento de combustible y la restricción de uso de vehículos por áreas.
+<img width="825" height="707" alt="foto1" src="https://github.com/user-attachments/assets/e1dffc64-2f06-49c9-916c-8d2552472880" />
 
 ## 🏗️ Arquitectura del Sistema
 El proyecto opera bajo una arquitectura Serverless utilizando el ecosistema de Google:
@@ -45,7 +46,6 @@ El Backend de GateOpsPro exporta los datos limpios y estructurados para ser cons
 <img width="1902" height="805" alt="foto4" src="https://github.com/user-attachments/assets/342d4e9b-e460-4ff6-b6d3-e0f993bde56f" />
 <img width="1567" height="887" alt="foto3" src="https://github.com/user-attachments/assets/ec115a13-96ab-4533-96a5-43dca1bcb39c" />
 <img width="1252" height="855" alt="foto2" src="https://github.com/user-attachments/assets/2df09868-2910-4a2b-98c9-146ed3631443" />
-<img width="825" height="707" alt="foto1" src="https://github.com/user-attachments/assets/e1dffc64-2f06-49c9-916c-8d2552472880" />
 
 
 ## 🧠 Desafíos Técnicos Superados
