@@ -42,7 +42,11 @@ El Backend de GateOpsPro exporta los datos limpios y estructurados para ser cons
 - Cantidad de viajes realizados y equipos en operación.
 - Historial de mantenimientos (Preventivos vs. Correctivos).
 
-*(Aquí debes insertar 2 o 3 capturas de pantalla de tu panel de Power BI y de la App Web)*
+<img width="1902" height="805" alt="foto4" src="https://github.com/user-attachments/assets/342d4e9b-e460-4ff6-b6d3-e0f993bde56f" />
+<img width="1567" height="887" alt="foto3" src="https://github.com/user-attachments/assets/ec115a13-96ab-4533-96a5-43dca1bcb39c" />
+<img width="1252" height="855" alt="foto2" src="https://github.com/user-attachments/assets/2df09868-2910-4a2b-98c9-146ed3631443" />
+<img width="825" height="707" alt="foto1" src="https://github.com/user-attachments/assets/e1dffc64-2f06-49c9-916c-8d2552472880" />
+
 
 ## 🧠 Desafíos Técnicos Superados
 - **Manejo de Zonas Horarias:** Uso de `Utilities.formatDate` con la zona `America/Managua` para asegurar que los registros coincidan con la hora local del país, evitando desfases en los reportes.
